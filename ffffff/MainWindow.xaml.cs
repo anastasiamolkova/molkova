@@ -1,28 +1,52 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
 
 namespace ffffff
 {
-    /// <summary>
-    /// Interaction logic for MainWindow.xaml
-    /// </summary>
     public partial class MainWindow : Window
     {
+        private Calculator calculator;
+
         public MainWindow()
         {
             InitializeComponent();
+            calculator = new Calculator();
+        }
+
+        private void btnCalculate_Click(object sender, RoutedEventArgs e)
+        {
+            // Получаем значения из текстовых полей
+            if (!double.TryParse(tbUpperBound.Text, out double upperBound) ||
+                !double.TryParse(tbUpperBound1.Text, out double lowerBound) ||
+                !int.TryParse(tbUpperBound2.Text, out int n))
+            {
+                MessageBox.Show("Пожалуйста, введите корректные числовые значения.");
+                return;
+            }
+
+            // Получаем выбранный метод интегрирования
+            string selectedMethod = (cmbBoxIntegralType.SelectedItem as ComboBoxItem).Content.ToString();
+
+            double result = 0;
+
+            // Вычисляем интеграл в зависимости от выбранного метода
+            if (selectedMethod == "Метод Симпсона")
+            {
+                result = calculator.SimpsonIntegration(lowerBound, upperBound, n);
+            }
+            else if (selectedMethod == "Метод прямоугольников")
+            {
+                result = calculator.RectangleIntegration(lowerBound, upperBound, n);
+            }
+            else
+            {
+                MessageBox.Show("Пожалуйста, выберите метод интегрирования.");
+                return;
+            }
+
+            // Выводим результат
+            MessageBox.Show($"Результат интегрирования: {result}");
         }
     }
 }
