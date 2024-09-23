@@ -23,6 +23,7 @@
             <RowDefinition Height="auto"/>
         </Grid.RowDefinitions>
         <TextBlock Grid.Row="1" Grid.Column="2" Width="600" Margin="19 40 40 40 ">Вычисление определённого интеграла функции f(x)=322x-ln(11x)-2</TextBlock>
+        <TextBlock Grid.Row="5" Grid.Column="1" Margin="10 49 10 40 ">Выберите метод</TextBlock>
         <TextBlock Grid.Row="2" Grid.Column="1" Margin="10 49 10 40 ">Верхний предел</TextBlock>
         <TextBlock Grid.Row="3" Grid.Column="1" Margin="10 40 10 40 ">Нижний предел</TextBlock>
         <TextBlock Grid.Row="4" Grid.Column="1" Margin="10 40 10 40 ">Количество разбиений</TextBlock>
