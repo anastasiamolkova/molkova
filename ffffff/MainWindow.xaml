@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ffffff"
         mc:Ignorable="d"
-        Title="MainWindow" Height="600" Width="800">
+        Title="MainWindow" Height="350" Width="600">
     <Grid RenderTransformOrigin="0.482,2.227">
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="20"/>
@@ -13,25 +13,26 @@
             <ColumnDefinition Width="*"/>
         </Grid.ColumnDefinitions>
         <Grid.RowDefinitions>
-            <RowDefinition Height="20"/>
+            <RowDefinition Height="10"/>
             <RowDefinition Height="auto"/>
-            <RowDefinition Height="auto"/>
-            <RowDefinition Height="auto"/>
-            <RowDefinition Height="auto"/>
+            <RowDefinition Height="30"/>
+            <RowDefinition Height="30"/>
+            <RowDefinition Height="30"/>
             <RowDefinition Height="auto"/>
             <RowDefinition Height="auto"/>
             <RowDefinition Height="auto"/>
         </Grid.RowDefinitions>
         <TextBlock Grid.Row="1" Grid.Column="2" Width="600" Margin="19 40 40 40 ">Вычисление определённого интеграла функции f(x)=322x-ln(11x)-2</TextBlock>
-        <TextBlock Grid.Row="2" Grid.Column="1" Margin="10 49 10 40 ">Верхний предел</TextBlock>
-        <TextBlock Grid.Row="3" Grid.Column="1" Margin="10 40 10 40 ">Нижний предел</TextBlock>
-        <TextBlock Grid.Row="4" Grid.Column="1" Margin="10 40 10 40 ">Количество разбиений</TextBlock>
-        <TextBox Name="tbUpperBound" Grid.Row="2" Grid.Column="2" Width="300" Margin="1 40 300 40 ">Введите верхний предел</TextBox>
-        <TextBox Name="tbUpperBound1" Grid.Row="3" Grid.Column="2" Width="300" Margin="1 40 300 40 ">Введите нижний предел</TextBox>
-        <TextBox Name="tbUpperBound2" Grid.Row="4" Grid.Column="2" Width="300" Margin="1 40 300 40 ">Введите количество разбиений</TextBox>
-        <Button Name="btnCalculate" Grid.Row="6" Grid.Column="1" Grid.ColumnSpan="2" Width="200" HorizontalAlignment="Center" Click="btnCalculate_Click">Посчитать</Button>
+        <TextBlock Grid.Row="2" Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Center">Верхний предел</TextBlock>
+        <TextBlock Grid.Row="3" Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Center">Нижний предел</TextBlock>
+        <TextBlock Grid.Row="4" Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Center">Количество разбиений</TextBlock>
+        <TextBlock Grid.Row="5" Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Center">Метод решения</TextBlock>
+        <TextBox Name="tbUpperBound" Grid.Row="2" Grid.Column="2" Width="300" Margin="5" HorizontalAlignment="Left" VerticalAlignment="Center"></TextBox>
+        <TextBox Name="tbUpperBound1" Grid.Row="3" Grid.Column="2" Width="300" Margin="5" HorizontalAlignment="Left" VerticalAlignment="Center" ></TextBox>
+        <TextBox Name="tbUpperBound2" Grid.Row="4" Grid.Column="2" Width="300" Margin="5" HorizontalAlignment="Left" VerticalAlignment="Center"></TextBox>
+        <Button Name="btnCalculate" Grid.Row="6" Grid.Column="2" Width="300" HorizontalAlignment="Left" Click="btnCalculate_Click" Margin="5">Посчитать</Button>
         <TextBlock Grid.Row="1" Grid.Column="1" Margin="10 40 10 40 ">Молькова Анастасия 3-47</TextBlock>
-        <ComboBox Name="cmbBoxIntegralType" Grid.Row="5" Grid.Column="2" Margin="128,40,290,40">
+        <ComboBox Name="cmbBoxIntegralType" Grid.Row="5" Grid.Column="2" Width="300" Margin="5" HorizontalAlignment="Left">
             <ComboBoxItem Content="Метод Симпсона"/>
             <ComboBoxItem Content="Метод прямоугольников"/>
         </ComboBox>
