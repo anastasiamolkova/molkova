@@ -18,23 +18,3 @@ C:\Users\dimam\Desktop\приложение 1\molkova\ffffff\obj\Debug\net6.0-wi
 C:\Users\dimam\Desktop\приложение 1\molkova\ffffff\obj\Debug\net6.0-windows\ffffff.pdb
 C:\Users\dimam\Desktop\приложение 1\molkova\ffffff\obj\Debug\net6.0-windows\ffffff.genruntimeconfig.cache
 C:\Users\dimam\Desktop\приложение 1\molkova\ffffff\obj\Debug\net6.0-windows\ref\ffffff.dll
-C:\Users\dream\OneDrive\Рабочий стол\ISPU\3 курс\Выч. системы и парал. обработка данных\fork\lab1_Nastya\ffffff\bin\Debug\net6.0-windows\ffffff.exe
-C:\Users\dream\OneDrive\Рабочий стол\ISPU\3 курс\Выч. системы и парал. обработка данных\fork\lab1_Nastya\ffffff\bin\Debug\net6.0-windows\ffffff.deps.json
-C:\Users\dream\OneDrive\Рабочий стол\ISPU\3 курс\Выч. системы и парал. обработка данных\fork\lab1_Nastya\ffffff\bin\Debug\net6.0-windows\ffffff.runtimeconfig.json
-C:\Users\dream\OneDrive\Рабочий стол\ISPU\3 курс\Выч. системы и парал. обработка данных\fork\lab1_Nastya\ffffff\bin\Debug\net6.0-windows\ffffff.dll
-C:\Users\dream\OneDrive\Рабочий стол\ISPU\3 курс\Выч. системы и парал. обработка данных\fork\lab1_Nastya\ffffff\bin\Debug\net6.0-windows\ffffff.pdb
-C:\Users\dream\OneDrive\Рабочий стол\ISPU\3 курс\Выч. системы и парал. обработка данных\fork\lab1_Nastya\ffffff\obj\Debug\net6.0-windows\MainWindow.g.cs
-C:\Users\dream\OneDrive\Рабочий стол\ISPU\3 курс\Выч. системы и парал. обработка данных\fork\lab1_Nastya\ffffff\obj\Debug\net6.0-windows\App.g.cs
-C:\Users\dream\OneDrive\Рабочий стол\ISPU\3 курс\Выч. системы и парал. обработка данных\fork\lab1_Nastya\ffffff\obj\Debug\net6.0-windows\ffffff_MarkupCompile.cache
-C:\Users\dream\OneDrive\Рабочий стол\ISPU\3 курс\Выч. системы и парал. обработка данных\fork\lab1_Nastya\ffffff\obj\Debug\net6.0-windows\ffffff_MarkupCompile.lref
-C:\Users\dream\OneDrive\Рабочий стол\ISPU\3 курс\Выч. системы и парал. обработка данных\fork\lab1_Nastya\ffffff\obj\Debug\net6.0-windows\MainWindow.baml
-C:\Users\dream\OneDrive\Рабочий стол\ISPU\3 курс\Выч. системы и парал. обработка данных\fork\lab1_Nastya\ffffff\obj\Debug\net6.0-windows\ffffff.g.resources
-C:\Users\dream\OneDrive\Рабочий стол\ISPU\3 курс\Выч. системы и парал. обработка данных\fork\lab1_Nastya\ffffff\obj\Debug\net6.0-windows\ffffff.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\dream\OneDrive\Рабочий стол\ISPU\3 курс\Выч. системы и парал. обработка данных\fork\lab1_Nastya\ffffff\obj\Debug\net6.0-windows\ffffff.AssemblyInfoInputs.cache
-C:\Users\dream\OneDrive\Рабочий стол\ISPU\3 курс\Выч. системы и парал. обработка данных\fork\lab1_Nastya\ffffff\obj\Debug\net6.0-windows\ffffff.AssemblyInfo.cs
-C:\Users\dream\OneDrive\Рабочий стол\ISPU\3 курс\Выч. системы и парал. обработка данных\fork\lab1_Nastya\ffffff\obj\Debug\net6.0-windows\ffffff.csproj.CoreCompileInputs.cache
-C:\Users\dream\OneDrive\Рабочий стол\ISPU\3 курс\Выч. системы и парал. обработка данных\fork\lab1_Nastya\ffffff\obj\Debug\net6.0-windows\ffffff.dll
-C:\Users\dream\OneDrive\Рабочий стол\ISPU\3 курс\Выч. системы и парал. обработка данных\fork\lab1_Nastya\ffffff\obj\Debug\net6.0-windows\refint\ffffff.dll
-C:\Users\dream\OneDrive\Рабочий стол\ISPU\3 курс\Выч. системы и парал. обработка данных\fork\lab1_Nastya\ffffff\obj\Debug\net6.0-windows\ffffff.pdb
-C:\Users\dream\OneDrive\Рабочий стол\ISPU\3 курс\Выч. системы и парал. обработка данных\fork\lab1_Nastya\ffffff\obj\Debug\net6.0-windows\ffffff.genruntimeconfig.cache
-C:\Users\dream\OneDrive\Рабочий стол\ISPU\3 курс\Выч. системы и парал. обработка данных\fork\lab1_Nastya\ffffff\obj\Debug\net6.0-windows\ref\ffffff.dll

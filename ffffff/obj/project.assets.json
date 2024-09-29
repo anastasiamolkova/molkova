@@ -8,19 +8,19 @@
     "net6.0-windows7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\dream\\.nuget\\packages\\": {}
+    "C:\\Users\\dimam\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\dream\\OneDrive\\Рабочий стол\\ISPU\\3 курс\\Выч. системы и парал. обработка данных\\fork\\lab1_Nastya\\ffffff\\ffffff.csproj",
+      "projectUniqueName": "C:\\Users\\dimam\\Desktop\\приложение 1\\molkova\\ffffff\\ffffff.csproj",
       "projectName": "ffffff",
-      "projectPath": "C:\\Users\\dream\\OneDrive\\Рабочий стол\\ISPU\\3 курс\\Выч. системы и парал. обработка данных\\fork\\lab1_Nastya\\ffffff\\ffffff.csproj",
-      "packagesPath": "C:\\Users\\dream\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\dream\\OneDrive\\Рабочий стол\\ISPU\\3 курс\\Выч. системы и парал. обработка данных\\fork\\lab1_Nastya\\ffffff\\obj\\",
+      "projectPath": "C:\\Users\\dimam\\Desktop\\приложение 1\\molkova\\ffffff\\ffffff.csproj",
+      "packagesPath": "C:\\Users\\dimam\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\dimam\\Desktop\\приложение 1\\molkova\\ffffff\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\dream\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\dimam\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -64,7 +64,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
       }
     }
   }
