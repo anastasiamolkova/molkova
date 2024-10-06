@@ -36,7 +36,7 @@ namespace ffffff
             // Вычисляем интеграл в зависимости от выбранного метода
             if (selectedMethod == "Метод Симпсона")
             {
-                result = calculator.SimpsonIntegration(lowerBound, upperBound, n);
+                result = calculator.TrapezoidalIntegration(lowerBound, upperBound, n, func);
             }
             else if (selectedMethod == "Метод прямоугольников")
             {
