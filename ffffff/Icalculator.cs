@@ -10,6 +10,9 @@ namespace ffffff
             double sum1 = 0.0;
             double sum2 = 0.0;
 
+            if (n <= 0)
+                throw new ArgumentException("Отрицательное количество разбиений");
+
             for (int i = 1; i < n; i += 2)
             {
                 sum1 += Function(a + i * h);
@@ -23,14 +26,14 @@ namespace ffffff
             return h / 3 * (Function(a) + 4 * sum1 + 2 * sum2 + Function(b));
         }
 
-        public double RectangleIntegration(double a, double b, int n)
+        public double RectangleIntegration(double a, double b, int n, Func<double, double> func)
         {
             double h = (b - a) / n;
             double sum = 0.0;
 
             for (int i = 0; i < n; i++)
             {
-                sum += Function(a + i * h);
+                sum += func(a + i * h);
             }
 
             return h * sum;

@@ -30,6 +30,9 @@ namespace ffffff
 
             double result = 0;
 
+            // Определяем функцию, которую хотим интегрировать
+            Func<double, double> func = x => 322 * x - Math.Log(11 * x) - 2;
+
             // Вычисляем интеграл в зависимости от выбранного метода
             if (selectedMethod == "Метод Симпсона")
             {
@@ -37,7 +40,7 @@ namespace ffffff
             }
             else if (selectedMethod == "Метод прямоугольников")
             {
-                result = calculator.RectangleIntegration(lowerBound, upperBound, n);
+                result = calculator.RectangleIntegration(lowerBound, upperBound, n, func);
             }
             else
             {

@@ -1,0 +1,5 @@
+C:\Users\dimam\Desktop\приложение 1\molkova\TestIntegralcalc\obj\Debug\net6.0\TestIntegralcalc.csproj.AssemblyReference.cache
+C:\Users\dimam\Desktop\приложение 1\molkova\TestIntegralcalc\obj\Debug\net6.0\TestIntegralcalc.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dimam\Desktop\приложение 1\molkova\TestIntegralcalc\obj\Debug\net6.0\TestIntegralcalc.AssemblyInfoInputs.cache
+C:\Users\dimam\Desktop\приложение 1\molkova\TestIntegralcalc\obj\Debug\net6.0\TestIntegralcalc.AssemblyInfo.cs
+C:\Users\dimam\Desktop\приложение 1\molkova\TestIntegralcalc\obj\Debug\net6.0\TestIntegralcalc.csproj.CoreCompileInputs.cache

@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34202.233
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ffffff", "ffffff.csproj", "{59AAD4BC-9D96-4FF8-8FB9-0D92C0D71531}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ffffff", "ffffff.csproj", "{59AAD4BC-9D96-4FF8-8FB9-0D92C0D71531}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestIntegralcalc", "..\TestIntegralcalc\TestIntegralcalc.csproj", "{9D8C4012-F45B-4F38-81EC-A4F0BB9C8209}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{59AAD4BC-9D96-4FF8-8FB9-0D92C0D71531}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{59AAD4BC-9D96-4FF8-8FB9-0D92C0D71531}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{59AAD4BC-9D96-4FF8-8FB9-0D92C0D71531}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D8C4012-F45B-4F38-81EC-A4F0BB9C8209}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D8C4012-F45B-4F38-81EC-A4F0BB9C8209}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D8C4012-F45B-4F38-81EC-A4F0BB9C8209}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D8C4012-F45B-4F38-81EC-A4F0BB9C8209}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
